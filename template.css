@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+ div#head{
+    height: 80px;
+    width: 100%;
+    line-height: 80px;
+    background: #06f401;
+    font-size: 50px;
+}
+div#head p{
+    display: flex;
+   justify-content: space-evenly;
+}
+nav{
+    background: rgb(242, 179, 62);
+    margin: 0;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 10px;
+    font-size: 20px;
+
+}
+nav ul{
+    float: left;
+    margin-left: 30px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 20px;
+
+}
+li a:hover{
+    background: blueviolet;
+    border-radius: 6px;
+}
+nav a img{
+    border-radius: 50%;
+    height:60px ;
+    width: 60px;
+    float: left;
+    margin: 0 0 0 20px;
+}
+ nav a label#log{
+    text-transform: uppercase;
+    float :right;
+    margin: 0 50px;
+}
+nav input{
+    border:1px solid black;
+    float: right;
+    height: 20px;
+    margin: 20px 0 0 0;
+    border-radius: 3px;
+}
+nav span{
+    float: right;
+    line-height: 60px;
+}
+
+div.pic1{
+    background-color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div.pic1 h2{
+    margin: 0 0 0 50px;
+    padding: 10px;
+}
+div.text{
+    background-color: azure;
+}
+div.text ol li{
+    font-size: 20px;
+    margin: 0 40px;
+   line-height: 25px;
+}
+div.text ol input{
+    background-color:yellowgreen ;
+    color: lavenderblush;
+    float: right;
+    font-size: 25px;
+    height: 30px;
+    width: 200px;
+    margin: 0 80px;
+}
+div.photo1{
+    height: 360px;
+    width: 330px;
+    /* border: 1px solid red;
+    padding: 50px 0 0 60px; */
+}
+div.photo1 img{
+    height: 250px;
+    width: 320px;
+    margin-top: 10px;
+}
+div.photo2{
+    height: 420px;
+    width: 330px;
+    margin-top: 100px;
+    /* border: 1px solid yellow;
+    padding: 120px 60px 0 0; */
+}
+div.photo2 img{
+    height: 220px;
+    width: 320px;
+}
+
+div.photo3 img{
+    height: 220px;
+    width: 320px;
+    margin-top: 10px;
+}
+
+div.main{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0 0 0;
+    color: white;
+    font-size: 20px;
+    background-image: url( 2886586.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(50, 40, 40);
+}
+div.footer {
+    /* display: flex;
+    justify-content: space-evenly; */
+    height: 300px;
+    background-color: rgb(179, 210, 151);
+    width: 100%;
+    text-align: center;
+}
+div.about{  
+    height: 200px;
+    width: 500px;
+    margin: 0 0 0 40%;
+    line-height: 30px;
+    text-align: left;
+}
+span h1{
+    font-size: 50px;
+}
